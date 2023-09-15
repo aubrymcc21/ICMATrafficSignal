@@ -1,0 +1,70 @@
+<!--
+Developer: Aubry McConnell
+Last edited date: 9/14/2023
+Description: .html file to compile & display the CSS & JavaScript code
+-->
+
+
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="css/main.css">
+        <script src="script/script.js"></script>      
+    </head>
+
+    <body>
+        
+        <div class="background"></div>
+        <div class="container">
+            <button class="button" onclick="beginScript()">
+                <p id="startButton">
+                    Start
+                </p>
+            </button>
+
+            <button class="button" onclick="stopScript()">
+                <p id="stopButton">
+                    Stop
+                </p>
+            </button>
+        </div>
+
+        <div class="container">
+            <div class="trafficLight">        
+                <div class="visor"></div>
+                <div class="visor"></div>
+                <div class="visor"></div>
+                <div class="traffic-line"></div>
+                <div class="traffic-bottom"></div>
+
+
+                <div class="traffic-signal">
+                    <div class="red" id="red"></div>
+                    <div class="yellow" id="yellow"></div>
+                    <div class="green" id="green"></div>
+                </div>
+            </div>
+
+            <div class="road"></div>
+            <div class="road-line"></div>
+            <div class="road-line road-line2"></div>
+            <div class="road-line road-line3"></div>
+        </div>
+
+        
+
+        
+        <div class="car-container" id="car">
+                <div class="car-container car-top"></div>
+                <div class="car-container car-window"></div>
+                <div class="car-container car-bottom"></div>
+                <div class="car-container car-door"></div>
+                <div class="car-container car-light car-front-light"></div>
+                <div class="car-container car-light car-rear-light"></div>
+                
+                <div class="wheel wheel1"></div>
+                <div class="car-container wheel wheel2"></div>
+        </div>
+
+    </body>
+</html>
